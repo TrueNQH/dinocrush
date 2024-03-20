@@ -4,7 +4,9 @@
   border: 1px solid black;
   margin: auto;
 }
-
+body {
+  overflow-x: hidden;
+}
 #dino {
   width: 100px;
   height: 100px;
@@ -59,5 +61,34 @@
 
   100% {
     left: -10px;
+  }
+}
+@media  (max-width: 680px) {
+  .game {
+    width: 100%;
+    height: 50vh; /* Use 'vh' to make the div relative to the height of the viewport */
+    border: 1px solid black;
+    margin: auto;
+  }
+  
+  #dino {
+    width: 25%; 
+    height: 33%; 
+    /* Provide the path of your image in 'url' */
+    background-size: 100% 100%;
+    position: relative;
+    top: 70%;
+    left: 10%;
+  }
+  
+  #cactus {
+    width: 20%; 
+    height: 26%;
+    position: relative;
+    top: 44%;
+    left: 70%;
+    background-size: 100% 100%;
+    /* Provide the path of your image in 'url' */
+    animation: block 1.5s infinite linear;
   }
 }
