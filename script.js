@@ -25,7 +25,7 @@ let isAlive = setInterval(function () {
     // collision
     audio.play(); 
   }
-}, 10);
+}, 1);
 
 document.addEventListener("keydown", function (event) {
   jump();

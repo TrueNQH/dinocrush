@@ -1,11 +1,25 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+#title {
+  text-align: center; 
+  font-size: 24px;
+  padding: 20px 0;
+}
 .game {
   width: 800px;
   height: 300px;
   border: 1px solid black;
-  margin: auto;
+  margin:  auto;
 }
 body {
   overflow-x: hidden;
+}
+#title p {
+  margin: 0 auto;
+  font-size: 20;
+
 }
 #dino {
   width: 100px;
@@ -24,7 +38,7 @@ body {
   top: 130px;
   left: 580px;
   background-image: url("img/h.png");
-  animation: block 1.5s infinite linear;
+  animation: block 1.5s infinite linear 2s;
 }
 .jump {
   animation: jump 0.3s linear;
