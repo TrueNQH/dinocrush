@@ -38,15 +38,15 @@ body {
   top: 130px;
   left: 580px;
   background-image: url("img/h.png");
-  animation: block 1.5s infinite linear 2s;
+  animation: block 1.8s infinite linear ;
 }
 .jump {
-  animation: jump 0.3s linear;
+  animation: jump 0.5s linear;
 }
 
 @keyframes jump {
   0% {
-    top: 130px;
+    top: 150px;
   }
 
   30% {
@@ -62,7 +62,7 @@ body {
   }
 
   100% {
-    top: 130px;
+    top: 150px;
   }
 }
 

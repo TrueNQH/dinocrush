@@ -7,7 +7,7 @@ function jump() {
 
     setTimeout(function () {
       dino.classList.remove("jump");
-    }, 300);
+    }, 800);
   }
 }
 
@@ -19,9 +19,9 @@ let isAlive = setInterval(function () {
   let cactusLeft = parseInt(
     window.getComputedStyle(cactus).getPropertyValue("left")
   );
-
+    console.log(cactusLeft);
   // detect collision
-  if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
+  if (cactusLeft < 130  && dinoTop >= 140) {
     // collision
     audio.play(); 
   }
