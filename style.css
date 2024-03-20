@@ -103,6 +103,6 @@ body {
     left: 70%;
     background-size: 100% 100%;
     /* Provide the path of your image in 'url' */
-    animation: block 1.5s infinite linear;
+   
   }
 }
